@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Vue JS</title>
+        <!--<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>-->
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            Name: {{name}}
+        </div>
+        <script>
+            const name = {
+                data(){
+                    return{
+                        name:"Amal"
+                    }
+                }
+            }
+            Vue.createApp(name).mount("#app")
+        </script>
+    </body>
+</html>

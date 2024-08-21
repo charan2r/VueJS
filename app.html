@@ -1,0 +1,33 @@
+<html>
+   <head>
+      <title>VueJs Instance</title>
+      <link rel="stylesheet" href="name.css">
+      <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+   </head>
+   <body>
+      <h1>Vuejs Crash Course</h1>
+      <div id = "vue_det">
+         <h2>Firstname : {{firstname}}</h2>
+         <h2>Lastname : {{lastname}}</h2>
+         <h2>Title : {{title}}</h2>
+         <h2>{{mydetails()}}</h2>
+      </div>
+      <script type = "text/javascript">
+          var  vm = new Vue({
+              el: '#vue_det',
+              data: {
+                 firstname : "Carolina",
+                 lastname  : "James",
+                 title    : "Ms."
+   },
+               methods: {
+                  mydetails : function() {
+                    return "Welcome "+ this.title +" "+  this.firstname +" "+ this.lastname + " to the world of VueJs";
+      }
+   }
+})
+      </script>
+   </body>
+</html>
+
+or '1'='1
