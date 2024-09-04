@@ -26,12 +26,12 @@ export default {
 <style scoped>
 
 .container{
-    margin-top: 15px;
+    margin-top: 20px;
     display: block;
 }
 
 h1{
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 10px;
     text-align: center;
     text-decoration: none;
